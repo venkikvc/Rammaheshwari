@@ -179,7 +179,7 @@ li {
 }
 .home-hero {
     color:black;
-    background:url(../kk/common.bg.jpg);
+    background:url(../Rammaheshwari/common.bg.jpg);
     background-position: center;
     height: 100vh;
     min-height: 80rem;
@@ -357,6 +357,32 @@ li {
 .about_content-details-para:last-child {
     margin-bottom: 4rem;
 }
+.home-hero_mouse-scroll-cont {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mouse {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 60px;
+    overflow: hidden;
+}
+.mouse::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 1;
+    -webkit-animation: wheel 1.3s infinite;
+}
 
 .skills {
     display: flex;
@@ -427,7 +453,7 @@ li {
     margin-bottom: 3rem;
 }
 .contact {
-    background: url(../kk/triangle.bg.jfif);
+    background: url(../Rammaheshwari/triangle.bg.jfif);
     background-size: cover;
     background-position: center;
  }
