@@ -33,7 +33,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background: #969494;
+    background: #fff;
     
 }
 .header_content {
@@ -179,7 +179,7 @@ li {
 }
 .home-hero {
     color:black;
-    background:url(../Rammaheshwari/common.bg.jpg);
+    background:linear-gradient(to right, rgba(245, 245, 245, .8),rgba(245,245,245, .8)),url(../Rammaheshwari/common.bg.jpg);
     background-position: center;
     height: 100vh;
     min-height: 80rem;
@@ -274,15 +274,13 @@ li {
     margin: auto;
     width: 92%;
 }
-.heading-sec_mb-med {
-    margin-bottom: 9rem;
-}
+
 @media screen and (max-width:56.25em) {
     .heading-sec_mb-med {
         margin-bottom: 8rem;
     }
 }
-.heading-sec_main {
+.heading-sec__main {
     display: block;
     font-size: 6rem;
     text-transform: uppercase;
@@ -291,14 +289,15 @@ li {
     margin-bottom: 3.5rem;
     position: relative;
 }
-.heading-sec_main--lt {
-    color: #0062b9;
+.heading-sec__main--lt {
+    color: #111;
+    font-weight: 800;
 }
-.heading-sec_main--lt::after {
+.heading-sec__main--lt::after {
     content: '';
     background: #0062b9 !important;
 }
-.heading-sec_main::after {
+.heading-sec__main::after {
     content: '';
     position: absolute;
     top: calc(100% + 1.5rem);
@@ -453,7 +452,7 @@ li {
     margin-bottom: 3rem;
 }
 .contact {
-    background: url(../Rammaheshwari/triangle.bg.jfif);
+    background: url(../Rammaheshwari/common.bg.jpg);
     background-size: cover;
     background-position: center;
  }
